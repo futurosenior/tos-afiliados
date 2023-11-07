@@ -1,0 +1,120 @@
+/* Reset básico para remover estilos padrão do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#searchBar {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  background-color: #4cae4c;
+}
+
+#productsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 220px;
+  margin: 10px;
+  padding: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; /* Ajustado para espaço ao redor */
+  align-items: center; /* Alinhamento horizontal */
+  height: auto; /* Altura automática para ajustar o conteúdo */
+  min-height: 350px; /* Altura mínima garantida */
+
+}
+
+.product-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-card p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.product-card button {
+  width: calc(50% - 4px);
+  padding: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 2px;
+  flex: 0 0 auto; /* Adicionado para impedir compressão dos botões */
+}
+
+.product-card button:nth-child(4) {
+  background-color: #28a745;
+}
+
+.product-card button:nth-child(5) {
+  background-color: #007bff;
+}
+
+.product-card button:hover {
+  opacity: 0.9;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 600px) {
+  #searchBar {
+    width: 70%;
+  }
+
+  .product-card {
+    width: 100%;
+    min-height: auto; /* Ajuste para responsividade */
+  }
+}

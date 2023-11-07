@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Smartphone UltraX 5G",
+    "description": "O mais recente smartphone 5G com câmera de alta definição e bateria de longa duração.",
+    "image": "https://dummyimage.com/200x200/000/fff&text=Produto",
+    "link": "https://linkparaSmartphoneUltraX5G.com",
+    "video": "https://linkparavideoSmartphoneUltraX5G.com"
+  },
+  {
+    "id": "2",
+    "name": "Fone de Ouvido Bluetooth BeatSound",
+    "description": "Fone de ouvido com cancelamento de ruído e som de alta fidelidade.",
+    "image": "https://dummyimage.com/200x200/000/fff&text=Produto",
+    "link": "https://linkparaFoneBluetoothBeatSound.com",
+    "video": "https://linkparavideoFoneBluetoothBeatSound.com"
+  },
+  {
+    "id": "3",
+    "name": "Tênis Runner Flex",
+    "description": "Tênis de corrida com design ergonômico e material respirável.",
+    "image": "https://dummyimage.com/200x200/000/fff&text=Produto",
+    "link": "https://linkparaTenisRunnerFlex.com",
+    "video": "https://linkparavideoTenisRunnerFlex.com"
+  },
+  {
+    "id": "4",
+    "name": "Robô Aspirador DustAway",
+    "description": "Aspirador robô com mapeamento inteligente e controle remoto via app.",
+    "image": "https://dummyimage.com/200x200/000/fff&text=Produto",
+    "link": "https://linkparaRoboAspiradorDustAway.com",
+    "video": "https://linkparavideoRoboAspiradorDustAway.com"
+  },
+  {
+    "id": "505",
+    "name": "Mixer SuperBlend",
+    "description": "Mixer de cozinha para suas receitas, com lâminas de aço inoxidável e múltiplas velocidades.",
+    "image": "https://dummyimage.com/200x200/000/fff&text=Produto",
+    "link": "https://linkparaMixerSuperBlend.com",
+    "video": "https://linkparavideoMixerSuperBlend.com"
+  }
+]
